@@ -1,20 +1,18 @@
 //
-//  YellowViewController.swift
+//  WhiteViewController.swift
 //  ColorViews
 //
-//  Created by cam on 20/02/18.
+//  Created by Gonet on 20/02/18.
 //  Copyright © 2018 Benjamín. All rights reserved.
 //
 
 import UIKit
 
-class YellowViewController: UIViewController {
+class WhiteViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Yellow"
-        let nextButton = UIBarButtonItem(title: "White", style: .done, target: self, action: #selector(nextButton(sender:)))
-        navigationItem.rightBarButtonItem = nextButton
+        self.title = "White"
 
         // Do any additional setup after loading the view.
     }
@@ -22,11 +20,6 @@ class YellowViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    @objc func nextButton(sender: UIBarButtonItem) {
-        let  svcrr =  WhiteViewController(nibName:"WhiteViewController",bundle:Bundle.main)
-        navigationController?.pushViewController(svcrr, animated: true)
     }
     
 
