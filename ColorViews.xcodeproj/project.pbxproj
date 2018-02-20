@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3209DA99203C8E0E0069030D /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3209DA97203C8E0E0069030D /* YellowViewController.swift */; };
+		3209DA9A203C8E0E0069030D /* YellowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3209DA98203C8E0E0069030D /* YellowViewController.xib */; };
+		3209DA9C203C8EF10069030D /* yellow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3209DA9B203C8EF10069030D /* yellow.jpg */; };
 		B3A75D1E203C850000A77696 /* GreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A75D1C203C850000A77696 /* GreenController.swift */; };
 		B3A75D1F203C850000A77696 /* GreenController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A75D1D203C850000A77696 /* GreenController.xib */; };
 		B3A75D21203C858800A77696 /* green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3A75D20203C858800A77696 /* green.jpg */; };
@@ -15,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3209DA97203C8E0E0069030D /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		3209DA98203C8E0E0069030D /* YellowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YellowViewController.xib; sourceTree = "<group>"; };
+		3209DA9B203C8EF10069030D /* yellow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yellow.jpg; path = ../../../../../Desktop/yellow.jpg; sourceTree = "<group>"; };
+		3209DA9D203C8EF40069030D /* yellow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellow.jpg; sourceTree = "<group>"; };
 		B3A75D1C203C850000A77696 /* GreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenController.swift; sourceTree = "<group>"; };
 		B3A75D1D203C850000A77696 /* GreenController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GreenController.xib; sourceTree = "<group>"; };
 		B3A75D20203C858800A77696 /* green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green.jpg; sourceTree = "<group>"; };
@@ -60,6 +67,7 @@
 				B54142AC203B7C82009DE1C7 /* AppDelegate.swift */,
 				B54142B3203B7C82009DE1C7 /* Assets.xcassets */,
 				B54142B8203B7C82009DE1C7 /* Info.plist */,
+				3209DA9D203C8EF40069030D /* yellow.jpg */,
 				B3A75D20203C858800A77696 /* green.jpg */,
 			);
 			path = ColorViews;
@@ -76,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				B3A75D1D203C850000A77696 /* GreenController.xib */,
+				3209DA98203C8E0E0069030D /* YellowViewController.xib */,
+				3209DA9B203C8EF10069030D /* yellow.jpg */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -84,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				B3A75D1C203C850000A77696 /* GreenController.swift */,
+				3209DA97203C8E0E0069030D /* YellowViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -147,7 +158,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3209DA9A203C8E0E0069030D /* YellowViewController.xib in Resources */,
 				B3A75D21203C858800A77696 /* green.jpg in Resources */,
+				3209DA9C203C8EF10069030D /* yellow.jpg in Resources */,
 				B54142B4203B7C82009DE1C7 /* Assets.xcassets in Resources */,
 				B3A75D1F203C850000A77696 /* GreenController.xib in Resources */,
 			);
@@ -161,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B54142AD203B7C82009DE1C7 /* AppDelegate.swift in Sources */,
+				3209DA99203C8E0E0069030D /* YellowViewController.swift in Sources */,
 				B3A75D1E203C850000A77696 /* GreenController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
