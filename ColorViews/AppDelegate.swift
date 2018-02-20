@@ -15,12 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        /*self.window = UIWindow(frame: UIScreen.main.bounds)
-        let firstController = FirtsViewControllerBatman() as UIViewController
+         self.window = UIWindow(frame: UIScreen.main.bounds)
+        let firstController = GreenController() as UIViewController
         let navigationController = UINavigationController(rootViewController: firstController)
         navigationController.navigationBar.isTranslucent = false
         self.window?.rootViewController = navigationController
-        self.window?.makeKeyAndVisible()*/
+        self.window?.makeKeyAndVisible()
         return true
     }
 
