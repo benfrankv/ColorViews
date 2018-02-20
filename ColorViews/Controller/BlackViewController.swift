@@ -1,5 +1,5 @@
 //
-//  WhiteViewController.swift
+//  BlackViewController.swift
 //  ColorViews
 //
 //  Created by Gonet on 20/02/18.
@@ -8,13 +8,13 @@
 
 import UIKit
 
-class WhiteViewController: UIViewController {
+class BlackViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "White"
-        let nextButton = UIBarButtonItem(title: "Black", style: .done, target: self, action: #selector(nextButton(sender:)))
-        navigationItem.rightBarButtonItem = nextButton
+        self.title = "Black"
+        
+        
         // Do any additional setup after loading the view.
     }
 
@@ -22,10 +22,8 @@ class WhiteViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    @objc func nextButton(sender: UIBarButtonItem) {
-        let  svcrr =  BlackViewController(nibName:"BlackViewController",bundle:Bundle.main)
-        navigationController?.pushViewController(svcrr, animated: true)
-    }
+    
+    
 
     /*
     // MARK: - Navigation

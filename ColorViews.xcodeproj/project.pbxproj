@@ -14,9 +14,12 @@
 		B3A75D21203C858800A77696 /* green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3A75D20203C858800A77696 /* green.jpg */; };
 		B54142AD203B7C82009DE1C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54142AC203B7C82009DE1C7 /* AppDelegate.swift */; };
 		B54142B4203B7C82009DE1C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54142B3203B7C82009DE1C7 /* Assets.xcassets */; };
+		C028EBE9203CE000007445F0 /* Japanese-White-Dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C028EBE8203CDFFF007445F0 /* Japanese-White-Dog.jpeg */; };
+		C028EBF0203CE2B1007445F0 /* BlackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C028EBEE203CE2B1007445F0 /* BlackViewController.swift */; };
+		C028EBF1203CE2B1007445F0 /* BlackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C028EBEF203CE2B1007445F0 /* BlackViewController.xib */; };
+		C028EBF5203CE585007445F0 /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C028EBF4203CE585007445F0 /* black.jpg */; };
 		C0A8E12F203CB21F0054F646 /* WhiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A8E12D203CB21F0054F646 /* WhiteViewController.swift */; };
 		C0A8E130203CB21F0054F646 /* WhiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0A8E12E203CB21F0054F646 /* WhiteViewController.xib */; };
-		C0A8E132203CB2A00054F646 /* Japanese-White-Dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C0A8E131203CB2A00054F646 /* Japanese-White-Dog.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,9 +33,12 @@
 		B54142AC203B7C82009DE1C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B54142B3203B7C82009DE1C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B54142B8203B7C82009DE1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C028EBE8203CDFFF007445F0 /* Japanese-White-Dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Japanese-White-Dog.jpeg"; sourceTree = "<group>"; };
+		C028EBEE203CE2B1007445F0 /* BlackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackViewController.swift; sourceTree = "<group>"; };
+		C028EBEF203CE2B1007445F0 /* BlackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlackViewController.xib; sourceTree = "<group>"; };
+		C028EBF4203CE585007445F0 /* black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black.jpg; sourceTree = "<group>"; };
 		C0A8E12D203CB21F0054F646 /* WhiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteViewController.swift; sourceTree = "<group>"; };
 		C0A8E12E203CB21F0054F646 /* WhiteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhiteViewController.xib; sourceTree = "<group>"; };
-		C0A8E131203CB2A00054F646 /* Japanese-White-Dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Japanese-White-Dog.jpeg"; path = "../../../Desktop/Japanese-White-Dog.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +76,11 @@
 				B54142BE203B7DC9009DE1C7 /* Model */,
 				B54142AC203B7C82009DE1C7 /* AppDelegate.swift */,
 				B54142B3203B7C82009DE1C7 /* Assets.xcassets */,
+				C028EBF4203CE585007445F0 /* black.jpg */,
 				B54142B8203B7C82009DE1C7 /* Info.plist */,
 				3209DA9D203C8EF40069030D /* yellow.jpg */,
 				B3A75D20203C858800A77696 /* green.jpg */,
-				C0A8E131203CB2A00054F646 /* Japanese-White-Dog.jpeg */,
+				C028EBE8203CDFFF007445F0 /* Japanese-White-Dog.jpeg */,
 			);
 			path = ColorViews;
 			sourceTree = "<group>";
@@ -91,6 +98,7 @@
 				B3A75D1D203C850000A77696 /* GreenController.xib */,
 				3209DA98203C8E0E0069030D /* YellowViewController.xib */,
 				C0A8E12E203CB21F0054F646 /* WhiteViewController.xib */,
+				C028EBEF203CE2B1007445F0 /* BlackViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,6 +106,7 @@
 		B54142C0203B7DDF009DE1C7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C028EBEE203CE2B1007445F0 /* BlackViewController.swift */,
 				B3A75D1C203C850000A77696 /* GreenController.swift */,
 				3209DA97203C8E0E0069030D /* YellowViewController.swift */,
 				C0A8E12D203CB21F0054F646 /* WhiteViewController.swift */,
@@ -164,10 +173,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C028EBF1203CE2B1007445F0 /* BlackViewController.xib in Resources */,
+				C028EBF5203CE585007445F0 /* black.jpg in Resources */,
 				3209DA9A203C8E0E0069030D /* YellowViewController.xib in Resources */,
+				C028EBE9203CE000007445F0 /* Japanese-White-Dog.jpeg in Resources */,
 				B3A75D21203C858800A77696 /* green.jpg in Resources */,
 				C0A8E130203CB21F0054F646 /* WhiteViewController.xib in Resources */,
-				C0A8E132203CB2A00054F646 /* Japanese-White-Dog.jpeg in Resources */,
 				B54142B4203B7C82009DE1C7 /* Assets.xcassets in Resources */,
 				B3A75D1F203C850000A77696 /* GreenController.xib in Resources */,
 			);
@@ -183,6 +194,7 @@
 				C0A8E12F203CB21F0054F646 /* WhiteViewController.swift in Sources */,
 				B54142AD203B7C82009DE1C7 /* AppDelegate.swift in Sources */,
 				3209DA99203C8E0E0069030D /* YellowViewController.swift in Sources */,
+				C028EBF0203CE2B1007445F0 /* BlackViewController.swift in Sources */,
 				B3A75D1E203C850000A77696 /* GreenController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
