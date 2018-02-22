@@ -1,24 +1,20 @@
 //
-//  BlackViewController.swift
+//  BlueViewController.swift
 //  ColorViews
 //
-//  Created by Gonet on 20/02/18.
+//  Created by Gonet on 22/02/18.
 //  Copyright © 2018 Benjamín. All rights reserved.
 //
 
 import UIKit
 
-class BlackViewController: UIViewController {
+class BlueViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Black"
-        
-        //creamos un boton
-        let nextButton = UIBarButtonItem(title: "Blue", style: .done, target: self, action: #selector(nextButton(sender:)))
-        navigationItem.rightBarButtonItem = nextButton
-        
-        
+        //Titulo de la vista 
+         self.title = "Blue"
+
         // Do any additional setup after loading the view.
     }
 
@@ -26,12 +22,6 @@ class BlackViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    @objc func nextButton(sender: UIBarButtonItem) {
-        let  svcrr =  BlueViewController(nibName:"BlueViewController",bundle:Bundle.main)
-        navigationController?.pushViewController(svcrr, animated: true)
-    }
-    
     
 
     /*
