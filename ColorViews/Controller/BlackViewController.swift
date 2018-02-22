@@ -12,21 +12,18 @@ class BlackViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Titulo de la vista
         self.title = "Black"
-        
-        //creamos un boton
+        //Creación de boton para pasar a la siguiente vista
         let nextButton = UIBarButtonItem(title: "Blue", style: .done, target: self, action: #selector(nextButton(sender:)))
         navigationItem.rightBarButtonItem = nextButton
-        
-        
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    //Funcion de Siguiente Vista
     @objc func nextButton(sender: UIBarButtonItem) {
         let  svcrr =  BlueViewController(nibName:"BlueViewController",bundle:Bundle.main)
         navigationController?.pushViewController(svcrr, animated: true)

@@ -8,23 +8,25 @@
 
 import UIKit
 
-class GreenController: UIViewController {
+class GreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Titulo de la vista
         self.title = "Green"
+        //Creación de boton para pasar a la siguiente vista
         let nextButton = UIBarButtonItem(title: "Yellow", style: .done, target: self, action: #selector(nextButton(sender:)))
         navigationItem.rightBarButtonItem = nextButton
-    }
-    @objc func nextButton(sender: UIBarButtonItem) {
-        let  svcrr =  YellowViewController(nibName:"YellowViewController",bundle:Bundle.main)
-        navigationController?.pushViewController(svcrr, animated: true)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    //Funcion de Siguiente Vista
+    @objc func nextButton(sender: UIBarButtonItem) {
+        let  svcrr =  YellowViewController(nibName:"YellowViewController",bundle:Bundle.main)
+        navigationController?.pushViewController(svcrr, animated: true)
+    }
 
     /*
     // MARK: - Navigation

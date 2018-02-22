@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3209DA99203C8E0E0069030D /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3209DA97203C8E0E0069030D /* YellowViewController.swift */; };
-		3209DA9A203C8E0E0069030D /* YellowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3209DA98203C8E0E0069030D /* YellowViewController.xib */; };
-		B3A75D1E203C850000A77696 /* GreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A75D1C203C850000A77696 /* GreenController.swift */; };
-		B3A75D1F203C850000A77696 /* GreenController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A75D1D203C850000A77696 /* GreenController.xib */; };
+		B3A75D1E203C850000A77696 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A75D1C203C850000A77696 /* GreenViewController.swift */; };
+		B3A75D1F203C850000A77696 /* GreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A75D1D203C850000A77696 /* GreenViewController.xib */; };
 		B3A75D21203C858800A77696 /* green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B3A75D20203C858800A77696 /* green.jpg */; };
 		B54142AD203B7C82009DE1C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54142AC203B7C82009DE1C7 /* AppDelegate.swift */; };
 		B54142B4203B7C82009DE1C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54142B3203B7C82009DE1C7 /* Assets.xcassets */; };
+		B5447BDA203F3F9900CD0D7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5447BD9203F3F9900CD0D7B /* LaunchScreen.storyboard */; };
+		B5447BDF203F41A200CD0D7B /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5447BDD203F41A200CD0D7B /* RedViewController.swift */; };
+		B5447BE0203F41A200CD0D7B /* RedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5447BDE203F41A200CD0D7B /* RedViewController.xib */; };
+		B5447BE4203F452E00CD0D7B /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5447BE2203F452E00CD0D7B /* YellowViewController.swift */; };
+		B5447BE5203F452E00CD0D7B /* YellowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5447BE3203F452E00CD0D7B /* YellowViewController.xib */; };
+		B5447BE7203F496900CD0D7B /* yellow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5447BE6203F496900CD0D7B /* yellow.jpg */; };
+		B5447BE9203F4B4A00CD0D7B /* Jigoku Tsuushin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5447BE8203F4B4900CD0D7B /* Jigoku Tsuushin.jpg */; };
 		C028EBE9203CE000007445F0 /* Japanese-White-Dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C028EBE8203CDFFF007445F0 /* Japanese-White-Dog.jpeg */; };
 		C028EBF0203CE2B1007445F0 /* BlackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C028EBEE203CE2B1007445F0 /* BlackViewController.swift */; };
 		C028EBF1203CE2B1007445F0 /* BlackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C028EBEF203CE2B1007445F0 /* BlackViewController.xib */; };
@@ -26,16 +31,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3209DA97203C8E0E0069030D /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
-		3209DA98203C8E0E0069030D /* YellowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YellowViewController.xib; sourceTree = "<group>"; };
-		3209DA9D203C8EF40069030D /* yellow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellow.jpg; sourceTree = "<group>"; };
-		B3A75D1C203C850000A77696 /* GreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenController.swift; sourceTree = "<group>"; };
-		B3A75D1D203C850000A77696 /* GreenController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GreenController.xib; sourceTree = "<group>"; };
+		B3A75D1C203C850000A77696 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		B3A75D1D203C850000A77696 /* GreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GreenViewController.xib; sourceTree = "<group>"; };
 		B3A75D20203C858800A77696 /* green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green.jpg; sourceTree = "<group>"; };
 		B54142A9203B7C82009DE1C7 /* ColorViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54142AC203B7C82009DE1C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B54142B3203B7C82009DE1C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B54142B8203B7C82009DE1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5447BD9203F3F9900CD0D7B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5447BDD203F41A200CD0D7B /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		B5447BDE203F41A200CD0D7B /* RedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RedViewController.xib; sourceTree = "<group>"; };
+		B5447BE2203F452E00CD0D7B /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		B5447BE3203F452E00CD0D7B /* YellowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YellowViewController.xib; sourceTree = "<group>"; };
+		B5447BE6203F496900CD0D7B /* yellow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellow.jpg; sourceTree = "<group>"; };
+		B5447BE8203F4B4900CD0D7B /* Jigoku Tsuushin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Jigoku Tsuushin.jpg"; sourceTree = "<group>"; };
 		C028EBE8203CDFFF007445F0 /* Japanese-White-Dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Japanese-White-Dog.jpeg"; sourceTree = "<group>"; };
 		C028EBEE203CE2B1007445F0 /* BlackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackViewController.swift; sourceTree = "<group>"; };
 		C028EBEF203CE2B1007445F0 /* BlackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlackViewController.xib; sourceTree = "<group>"; };
@@ -80,14 +89,11 @@
 				B54142C0203B7DDF009DE1C7 /* Controller */,
 				B54142BF203B7DD4009DE1C7 /* View */,
 				B54142BE203B7DC9009DE1C7 /* Model */,
-				B54142AC203B7C82009DE1C7 /* AppDelegate.swift */,
+				B5447BE1203F41B900CD0D7B /* ColorBackgrounds */,
 				B54142B3203B7C82009DE1C7 /* Assets.xcassets */,
-				C028EBF4203CE585007445F0 /* black.jpg */,
+				B54142AC203B7C82009DE1C7 /* AppDelegate.swift */,
 				B54142B8203B7C82009DE1C7 /* Info.plist */,
-				3209DA9D203C8EF40069030D /* yellow.jpg */,
-				B3A75D20203C858800A77696 /* green.jpg */,
-				C028EBE8203CDFFF007445F0 /* Japanese-White-Dog.jpeg */,
-				C0DF632D203F360E002E071F /* BLUE.jpg */,
+				B5447BD9203F3F9900CD0D7B /* LaunchScreen.storyboard */,
 			);
 			path = ColorViews;
 			sourceTree = "<group>";
@@ -102,11 +108,12 @@
 		B54142BF203B7DD4009DE1C7 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B3A75D1D203C850000A77696 /* GreenController.xib */,
-				3209DA98203C8E0E0069030D /* YellowViewController.xib */,
+				B3A75D1D203C850000A77696 /* GreenViewController.xib */,
+				B5447BE3203F452E00CD0D7B /* YellowViewController.xib */,
 				C0A8E12E203CB21F0054F646 /* WhiteViewController.xib */,
 				C028EBEF203CE2B1007445F0 /* BlackViewController.xib */,
 				C0DF6328203F3586002E071F /* BlueViewController.xib */,
+				B5447BDE203F41A200CD0D7B /* RedViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -114,13 +121,27 @@
 		B54142C0203B7DDF009DE1C7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C028EBEE203CE2B1007445F0 /* BlackViewController.swift */,
-				B3A75D1C203C850000A77696 /* GreenController.swift */,
-				3209DA97203C8E0E0069030D /* YellowViewController.swift */,
+				B3A75D1C203C850000A77696 /* GreenViewController.swift */,
+				B5447BE2203F452E00CD0D7B /* YellowViewController.swift */,
 				C0A8E12D203CB21F0054F646 /* WhiteViewController.swift */,
+				C028EBEE203CE2B1007445F0 /* BlackViewController.swift */,
 				C0DF6327203F3586002E071F /* BlueViewController.swift */,
+				B5447BDD203F41A200CD0D7B /* RedViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5447BE1203F41B900CD0D7B /* ColorBackgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				C028EBF4203CE585007445F0 /* black.jpg */,
+				B5447BE6203F496900CD0D7B /* yellow.jpg */,
+				B3A75D20203C858800A77696 /* green.jpg */,
+				C028EBE8203CDFFF007445F0 /* Japanese-White-Dog.jpeg */,
+				C0DF632D203F360E002E071F /* BLUE.jpg */,
+				B5447BE8203F4B4900CD0D7B /* Jigoku Tsuushin.jpg */,
+			);
+			path = ColorBackgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,16 +203,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5447BE0203F41A200CD0D7B /* RedViewController.xib in Resources */,
 				C028EBF1203CE2B1007445F0 /* BlackViewController.xib in Resources */,
 				C028EBF5203CE585007445F0 /* black.jpg in Resources */,
-				3209DA9A203C8E0E0069030D /* YellowViewController.xib in Resources */,
 				C028EBE9203CE000007445F0 /* Japanese-White-Dog.jpeg in Resources */,
+				B5447BE5203F452E00CD0D7B /* YellowViewController.xib in Resources */,
 				B3A75D21203C858800A77696 /* green.jpg in Resources */,
 				C0A8E130203CB21F0054F646 /* WhiteViewController.xib in Resources */,
+				B5447BDA203F3F9900CD0D7B /* LaunchScreen.storyboard in Resources */,
 				C0DF632A203F3586002E071F /* BlueViewController.xib in Resources */,
+				B5447BE7203F496900CD0D7B /* yellow.jpg in Resources */,
 				C0DF632E203F360E002E071F /* BLUE.jpg in Resources */,
 				B54142B4203B7C82009DE1C7 /* Assets.xcassets in Resources */,
-				B3A75D1F203C850000A77696 /* GreenController.xib in Resources */,
+				B5447BE9203F4B4A00CD0D7B /* Jigoku Tsuushin.jpg in Resources */,
+				B3A75D1F203C850000A77696 /* GreenViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,12 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5447BDF203F41A200CD0D7B /* RedViewController.swift in Sources */,
 				C0A8E12F203CB21F0054F646 /* WhiteViewController.swift in Sources */,
 				B54142AD203B7C82009DE1C7 /* AppDelegate.swift in Sources */,
-				3209DA99203C8E0E0069030D /* YellowViewController.swift in Sources */,
+				B5447BE4203F452E00CD0D7B /* YellowViewController.swift in Sources */,
 				C028EBF0203CE2B1007445F0 /* BlackViewController.swift in Sources */,
 				C0DF6329203F3586002E071F /* BlueViewController.swift in Sources */,
-				B3A75D1E203C850000A77696 /* GreenController.swift in Sources */,
+				B3A75D1E203C850000A77696 /* GreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

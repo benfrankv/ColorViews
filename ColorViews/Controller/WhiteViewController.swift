@@ -12,7 +12,9 @@ class WhiteViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Titulo de la vista
         self.title = "White"
+        //Creación de boton para pasar a la siguiente vista
         let nextButton = UIBarButtonItem(title: "Black", style: .done, target: self, action: #selector(nextButton(sender:)))
         navigationItem.rightBarButtonItem = nextButton
         // Do any additional setup after loading the view.
@@ -22,6 +24,7 @@ class WhiteViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    //Funcion de Siguiente Vista
     @objc func nextButton(sender: UIBarButtonItem) {
         let  svcrr =  BlackViewController(nibName:"BlackViewController",bundle:Bundle.main)
         navigationController?.pushViewController(svcrr, animated: true)

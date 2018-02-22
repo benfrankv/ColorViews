@@ -11,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BlackViewController" customModule="ColorViews" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RedViewController" customModule="ColorViews" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -21,23 +21,24 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="black.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="c97-91-A6A">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Jigoku Tsuushin.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Epl-U6-q01">
+                    <rect key="frame" x="0.0" y="44" width="375" height="768"/>
                 </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="c97-91-A6A" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="3iv-A4-qFs"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="c97-91-A6A" secondAttribute="trailing" id="E3I-g3-0Cf"/>
-                <constraint firstItem="c97-91-A6A" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="YhM-d3-pIF"/>
-                <constraint firstAttribute="bottom" secondItem="c97-91-A6A" secondAttribute="bottom" id="hk6-Y5-Ien"/>
-                <constraint firstAttribute="bottomMargin" secondItem="c97-91-A6A" secondAttribute="bottom" id="qtx-J5-XXf"/>
+                <constraint firstItem="Epl-U6-q01" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="TqR-QO-AjC"/>
+                <constraint firstItem="Epl-U6-q01" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="topMargin" id="fSZ-xK-JPA"/>
+                <constraint firstItem="Epl-U6-q01" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="m2H-g3-AYX"/>
+                <constraint firstItem="Epl-U6-q01" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="oEe-4m-dp1"/>
+                <constraint firstItem="Epl-U6-q01" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="rd1-Cm-ebX"/>
+                <constraint firstAttribute="bottomMargin" secondItem="Epl-U6-q01" secondAttribute="bottom" id="rdr-7P-4Jd"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="26.5" y="52"/>
         </view>
     </objects>
     <resources>
-        <image name="black.jpg" width="1920" height="1080"/>
+        <image name="Jigoku Tsuushin.jpg" width="1600" height="1200"/>
     </resources>
 </document>
