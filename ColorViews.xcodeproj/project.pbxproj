@@ -20,6 +20,9 @@
 		C028EBF5203CE585007445F0 /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C028EBF4203CE585007445F0 /* black.jpg */; };
 		C0A8E12F203CB21F0054F646 /* WhiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A8E12D203CB21F0054F646 /* WhiteViewController.swift */; };
 		C0A8E130203CB21F0054F646 /* WhiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0A8E12E203CB21F0054F646 /* WhiteViewController.xib */; };
+		C0DF6329203F3586002E071F /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DF6327203F3586002E071F /* BlueViewController.swift */; };
+		C0DF632A203F3586002E071F /* BlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0DF6328203F3586002E071F /* BlueViewController.xib */; };
+		C0DF632E203F360E002E071F /* BLUE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C0DF632D203F360E002E071F /* BLUE.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		C028EBF4203CE585007445F0 /* black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black.jpg; sourceTree = "<group>"; };
 		C0A8E12D203CB21F0054F646 /* WhiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteViewController.swift; sourceTree = "<group>"; };
 		C0A8E12E203CB21F0054F646 /* WhiteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhiteViewController.xib; sourceTree = "<group>"; };
+		C0DF6327203F3586002E071F /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		C0DF6328203F3586002E071F /* BlueViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlueViewController.xib; sourceTree = "<group>"; };
+		C0DF632D203F360E002E071F /* BLUE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BLUE.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 				3209DA9D203C8EF40069030D /* yellow.jpg */,
 				B3A75D20203C858800A77696 /* green.jpg */,
 				C028EBE8203CDFFF007445F0 /* Japanese-White-Dog.jpeg */,
+				C0DF632D203F360E002E071F /* BLUE.jpg */,
 			);
 			path = ColorViews;
 			sourceTree = "<group>";
@@ -99,6 +106,7 @@
 				3209DA98203C8E0E0069030D /* YellowViewController.xib */,
 				C0A8E12E203CB21F0054F646 /* WhiteViewController.xib */,
 				C028EBEF203CE2B1007445F0 /* BlackViewController.xib */,
+				C0DF6328203F3586002E071F /* BlueViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -110,6 +118,7 @@
 				B3A75D1C203C850000A77696 /* GreenController.swift */,
 				3209DA97203C8E0E0069030D /* YellowViewController.swift */,
 				C0A8E12D203CB21F0054F646 /* WhiteViewController.swift */,
+				C0DF6327203F3586002E071F /* BlueViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -179,6 +188,8 @@
 				C028EBE9203CE000007445F0 /* Japanese-White-Dog.jpeg in Resources */,
 				B3A75D21203C858800A77696 /* green.jpg in Resources */,
 				C0A8E130203CB21F0054F646 /* WhiteViewController.xib in Resources */,
+				C0DF632A203F3586002E071F /* BlueViewController.xib in Resources */,
+				C0DF632E203F360E002E071F /* BLUE.jpg in Resources */,
 				B54142B4203B7C82009DE1C7 /* Assets.xcassets in Resources */,
 				B3A75D1F203C850000A77696 /* GreenController.xib in Resources */,
 			);
@@ -195,6 +206,7 @@
 				B54142AD203B7C82009DE1C7 /* AppDelegate.swift in Sources */,
 				3209DA99203C8E0E0069030D /* YellowViewController.swift in Sources */,
 				C028EBF0203CE2B1007445F0 /* BlackViewController.swift in Sources */,
+				C0DF6329203F3586002E071F /* BlueViewController.swift in Sources */,
 				B3A75D1E203C850000A77696 /* GreenController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
